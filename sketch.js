@@ -147,7 +147,7 @@ function draw(){
        text(m,width/3,height/4)
 
        z.mousePressed(function(){
-           alert('Your Order has been place')
+           alert('Your Order has been placed')
            i=3
            f.hide()
            q.hide()
@@ -155,7 +155,7 @@ function draw(){
        })
 
        q.mousePressed(function(){
-            alert('Your Order has been place')
+            alert('Your Order has been placed')
             i=3
             f.hide()
             q.hide()
@@ -163,7 +163,7 @@ function draw(){
        })
 
         f.mousePressed(function(){
-            alert('Your Order has been place')
+            alert('Your Order has been placed')
             i=3
             f.hide()
             q.hide()
@@ -176,8 +176,8 @@ function draw(){
 
     if(i==3){
         background(0)
-        textSize(65)
-        text('Thank you for using us',width/2-width/4,height/2)
+        textSize(62)
+        text('Thank you for visiting us',width/2-width/4,height/2)
     }
 
     drawSprites()
